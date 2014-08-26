@@ -7,6 +7,11 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 
+use app\models\Girl;
+use app\models\Hero;
+use app\models\Movement;
+use app\models\Repscheme;
+
 class SiteController extends Controller
 {
     public function behaviors()
@@ -41,12 +46,16 @@ class SiteController extends Controller
 	
 	public function actionHero()
     {
-        return $this->render('hero');
+        return $this->render('hero', [
+			'heros' => Hero::find()->asArray()->all(),
+		]);
     }
 	
 	public function actionGirl()
     {
-        return $this->render('girl');
+        return $this->render('girl', [
+			'girls' => Girl::find()->asArray()->all(),
+		]);
     }
 	
 	public function actionCustom()

@@ -55,15 +55,15 @@ AppAsset::register($this);
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							  </button>
-							  <a class="navbar-brand" href="./index.html"><span class="label label-danger">WOD</span> Generator</a>
+							  <a class="navbar-brand" href="/"><span class="label label-danger">WOD</span> Generator</a>
 							</div>
 
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							  <ul class="nav navbar-nav navbar-right">
-								<li><a href="./girl.html">Do a Girl</a></li>
-								<li><a href="./hero.html">Be a Hero</a></li>
-								<li><a href="./custom.html">Custom</a></li>
+								<li><a href="/do-a-girl">Do a Girl</a></li>
+								<li><a href="/be-a-hero">Be a Hero</a></li>
+								<li><a href="/custom">Custom</a></li>
 							  </ul>
 							</div><!-- /.navbar-collapse -->
 						  </div><!-- /.container-fluid -->
@@ -92,6 +92,24 @@ AppAsset::register($this);
 	</footer>
 	
   <?php $this->endBody() ?>
+  
+  <?php
+    if(!YII_DEBUG) {
+  ?>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-53195432-5', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <?php
+    }
+  ?>
+  
   </body>
 </html>
 <?php $this->endPage() ?>

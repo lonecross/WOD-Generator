@@ -3,7 +3,7 @@
 $this->title = 'WOD Generator';
 ?>
 
-<section id="site-jumbotron">
+		<section id="site-jumbotron">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -16,10 +16,22 @@ $this->title = 'WOD Generator';
 
 									<p class="lead">"The number of reps you can do is directly proportional to the number of people you think are watching."</p>
 
-									<p><a class="btn btn-lg btn-success" href="./generator.html">Generate Now</a></p>
+									<p><a class="btn btn-lg btn-success" href="/custom">Generate Now</a></p>
 								</div>
 								<div class="col-sm-4">
-									<img src="http://placehold.it/300x250&text=Ad" alt="Ad" />
+									<?php if(!YII_DEBUG) { ?>
+										<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+										<!-- WOD Block -->
+										<ins class="adsbygoogle"
+											 style="display:inline-block;width:300px;height:250px"
+											 data-ad-client="ca-pub-5089214589271094"
+											 data-ad-slot="8148576908"></ins>
+										<script>
+										(adsbygoogle = window.adsbygoogle || []).push({});
+										</script>
+									<?php }else{ ?>
+										<img src="http://placehold.it/300x250&text=Ad" alt="Ad" />
+									<?php } ?>
 								</div>
 							</div>
 							
