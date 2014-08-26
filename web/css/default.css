@@ -1,0 +1,136 @@
+html
+	{
+		background: #f7f7f7 url('images/bg.jpg');
+		height: 100%;
+		padding:0;
+		margin:0;
+	}
+
+	body
+	{
+		font-size: 12pt;
+		color: #333;
+		font-weight: 300;
+		height: 100%;
+		background: url('images/bgshadow.png') top left no-repeat;
+		background-size: 100% 100%;
+	}
+
+
+
+/* Wrapper for page content to push down footer */
+#site-wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by its height */
+	margin: 0 auto -85px;
+	/* Pad bottom by footer height */
+	padding: 0 0 85px 0;
+}
+
+#site-header {
+
+}
+
+.navbar {
+	margin-bottom:0px;
+	border-radius:0;
+	background-color:inherit;
+	border:0;
+}
+
+.navbar-form {
+	padding-right:0;
+	padding-left:0;
+}
+
+.navbar-default .navbar-brand {
+color: #333;
+}
+
+.navbar-default .navbar-brand {
+height: 150px;
+padding: 55px 15px;
+font-size: 38px;
+line-height: 20px;
+}
+
+.navbar-default .navbar-brand:hover {
+color: #10a0d5;
+}
+
+.navbar-nav {
+height: 150px;
+padding: 45px 15px;
+font-size: 23px;
+line-height: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #333;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+color: #10a0d5;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+border-radius: .25em;
+background-color:#10a0d5;
+color:#FFF;
+}
+
+
+
+
+#site-jumbotron {
+
+}
+
+#site-jumbotron  .jumbotron {
+	/*margin-bottom:0;*/
+	/*background:transparent;*/
+	background: url('../img/banner3.jpg') no-repeat top center;
+	border:1px solid #333;
+}
+
+
+
+
+#site-content {
+	margin-bottom:20px;
+}
+
+.a-content {
+	color:#333;
+}
+
+.a-content:hover {
+	color:#10a0d5;
+}
+
+
+
+
+
+#site-footer{
+	height: 85px; /* Needs to match margin and padding of #site-wrapper */
+	padding:30px 0;
+	background-color:#333;
+}
+
+#site-footer p{
+	margin:0;
+	color:#FFF;
+}
+
+#site-footer p a{
+	color:#10a0d5;
+	font-weight:bold;
+}
+
+#site-footer p a:hover{
+	
+	text-decoration:none;
+}

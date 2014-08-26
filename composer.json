@@ -1,0 +1,36 @@
+{
+    "name": "lonecross/WOD-Generator",
+    "description": "Workout of the Day Generator",
+    "keywords": ["wod", "workout of the day", "workout", "lonecross", "nihil"],
+    "homepage": "http://www.thewodgenerator.com",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "writable": [
+            "runtime",
+            "web/assets"
+        ],
+        "executable": [
+            "yii"
+        ],
+        "config": [
+            "config/web.php"
+        ]
+    }
+}
