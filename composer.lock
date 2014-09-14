@@ -168,12 +168,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "9f5660c3e3b3d392529d07c4f2cfe0aba2abbe89"
+                "reference": "060c277c8da03f755396d94c947381f99184eade"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/9f5660c3e3b3d392529d07c4f2cfe0aba2abbe89",
-                "reference": "9f5660c3e3b3d392529d07c4f2cfe0aba2abbe89",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/060c277c8da03f755396d94c947381f99184eade",
+                "reference": "060c277c8da03f755396d94c947381f99184eade",
                 "shasum": ""
             },
             "replace": {
@@ -211,7 +211,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2014-09-07 04:25:33"
+            "time": "2014-09-13 17:37:29"
         },
         {
             "name": "yiisoft/jquery",
@@ -268,12 +268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "dbe0ae86807141765dd3c20044da63702d90050d"
+                "reference": "7ec8a9581c05df7735301b07834d2a4c3dbbf526"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/dbe0ae86807141765dd3c20044da63702d90050d",
-                "reference": "dbe0ae86807141765dd3c20044da63702d90050d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7ec8a9581c05df7735301b07834d2a4c3dbbf526",
+                "reference": "7ec8a9581c05df7735301b07834d2a4c3dbbf526",
                 "shasum": ""
             },
             "require": {
@@ -341,7 +341,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-09-07 11:46:54"
+            "time": "2014-09-12 20:46:12"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -481,12 +481,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "4c3e635f8f5f31e889a4fa0d38f729f36b383697"
+                "reference": "01109315e2bca979d2bb1c88260fde036864c0c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/4c3e635f8f5f31e889a4fa0d38f729f36b383697",
-                "reference": "4c3e635f8f5f31e889a4fa0d38f729f36b383697",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/01109315e2bca979d2bb1c88260fde036864c0c6",
+                "reference": "01109315e2bca979d2bb1c88260fde036864c0c6",
                 "shasum": ""
             },
             "require": {
@@ -523,7 +523,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2014-09-03 15:46:27"
+            "time": "2014-09-09 17:33:15"
         },
         {
             "name": "phpspec/php-diff",
@@ -565,12 +565,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-codeception.git",
-                "reference": "05833719fc2cc14d6914e7c080267b067009b26e"
+                "reference": "9b2a01ff4798c683d1c85f74b9969cf68f7c482b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-codeception/zipball/05833719fc2cc14d6914e7c080267b067009b26e",
-                "reference": "05833719fc2cc14d6914e7c080267b067009b26e",
+                "url": "https://api.github.com/repos/yiisoft/yii2-codeception/zipball/9b2a01ff4798c683d1c85f74b9969cf68f7c482b",
+                "reference": "9b2a01ff4798c683d1c85f74b9969cf68f7c482b",
                 "shasum": ""
             },
             "require": {
@@ -597,7 +597,7 @@
                 "codeception",
                 "yii2"
             ],
-            "time": "2014-08-24 10:14:35"
+            "time": "2014-09-12 10:42:54"
         },
         {
             "name": "yiisoft/yii2-debug",
@@ -605,12 +605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "b83cbe8e35bbfc99d95549309186914fb6f33ca7"
+                "reference": "9c96250d43fc85324bfdc7dd24b4df25640ff782"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/b83cbe8e35bbfc99d95549309186914fb6f33ca7",
-                "reference": "b83cbe8e35bbfc99d95549309186914fb6f33ca7",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/9c96250d43fc85324bfdc7dd24b4df25640ff782",
+                "reference": "9c96250d43fc85324bfdc7dd24b4df25640ff782",
                 "shasum": ""
             },
             "require": {
@@ -639,7 +639,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2014-08-28 20:28:03"
+            "time": "2014-09-11 16:43:52"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -689,12 +689,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "3062e56767747143d75553d52795e048959dfee0"
+                "reference": "78b43923367a764f65a4471248f8eb9645f122f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/3062e56767747143d75553d52795e048959dfee0",
-                "reference": "3062e56767747143d75553d52795e048959dfee0",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/78b43923367a764f65a4471248f8eb9645f122f2",
+                "reference": "78b43923367a764f65a4471248f8eb9645f122f2",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +724,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2014-09-03 18:09:30"
+            "time": "2014-09-10 10:15:59"
         }
     ],
     "aliases": [],
